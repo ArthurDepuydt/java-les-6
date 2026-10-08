@@ -26,8 +26,8 @@ De `Person` heeft volgende attributen:
 - lastName
 - sex
 - age
-- mother (Person)
-- father (Person)
+- mother (Family.Person)
+- father (Family.Person)
 - siblings (lijst)
 - children (lijst)
 - pets (lijst)
@@ -37,7 +37,7 @@ De `Pet` heeft minimaal de volgende attributen:
 - name
 - age
 - species
-- owner (Person)
+- owner (Family.Person)
 
 De `Person` bevat naast de attributen het volgende:
 
@@ -77,9 +77,9 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 
 6. Voeg Maven toe aan het project.
 
-7. (optioneel) Schrijf unittesten voor alle getters en setters van zowel Pet als Person. 
+7. (optioneel) Schrijf unittesten voor alle getters en setters van zowel Family.Pet als Family.Person. 
 
-8. Schrijf unittesten voor de extra methodes van Person (addPArents, addChild, addPet, addSibling, getGrandChildren)
+8. Schrijf unittesten voor de extra methodes van Family.Person (addPArents, addChild, addPet, addSibling, getGrandChildren)
 
 
 
